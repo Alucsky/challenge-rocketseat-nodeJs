@@ -9,7 +9,7 @@ const stream = fs.createReadStream(filePath)
 const csvParse = parse({
   delimiter: ',',
   skip_empty_lines: true,
-  from_line: 2,
+  from_line: 1,
 })
 
 const route = routes.find((route) => {
